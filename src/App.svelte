@@ -18,7 +18,7 @@
       <Component>
         <div class="flex items-center justify-between gap-4">
           <h4 class="text-lg font-semibold text-neutral-300">
-            Welcome to Holi, login with
+            Welcome to PurpleBags, login with
           </h4>
           <div class="p-3 bg-fuchsia-600 rounded-lg">
             <Icon title="logo" src={BsHandbagFill} />
