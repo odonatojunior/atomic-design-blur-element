@@ -26,18 +26,15 @@
         </div>
       </Component>
 
-      <Component>
         <div class="flex justify-between gap-4 my-4">
           <SocialLoginButton icon={BsGoogle} name="Google" />
           <SocialLoginButton icon={BsTwitter} name="Twitter" />
         </div>
-      </Component>
 
       <Component>
         <DividerWithText text="Or continue with email" />
       </Component>
 
-      <Component>
         <FormControl name="E-mail" id="email" placeholder="mail@example.com" />
         <FormControl
           name="Password"
@@ -46,7 +43,6 @@
           type="password"
           password={true}
         />
-      </Component>
 
       <Component>
         <div class="flex justify-between items-center mt-8">
@@ -54,9 +50,10 @@
           <a class="text-sm hover:underline text-neutral-400"
             >Don't have an account? Register</a
           >
-          <Button name="Login" _class="bg-fuchsia-700 hover:bg-fuchsia-800" />
+          <Button hasIcon={false} name="Login" _class="bg-fuchsia-700 hover:bg-fuchsia-800" />
         </div>
       </Component>
+      
     </Form>
   </Container>
 </main>
