@@ -44,4 +44,4 @@ jobs:
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v1.0.10
         with:
-          token: ${{ secrets.GhPat }}
+          token: ${{ secrets.GH_PAT }}
