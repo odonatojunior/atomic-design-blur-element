@@ -1,7 +1,7 @@
 # Atomic Design Learning
-[Site](https://vercel.com/odonatojunior/atomic-design-blur-element)
+[Acesse aqui](https://atomic-design-blur-element.vercel.app/)
 
-## A fazer
+# A fazer
 - [] Não aceitar clicks na tela quando um elemento estiver selecionado
 - [] Refatorar a lógica do blur (ta uma zona)
 - [] Remover as gambiarras de seleção do DOM
